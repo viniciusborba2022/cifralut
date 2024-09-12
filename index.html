@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-br">
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CifraLut</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <style>
+      .search-results li {
+         list-style: none;
+         /* Remove os marcadores da lista */
+         margin: 5px 0;
+         /* Margem para espaçamento dos itens */
+      }
+
+      .search-results a {
+         text-decoration: none;
+         color: #007bff;
+      }
+
+      .search-results a:hover {
+         text-decoration: underline;
+      }
+   </style>
+</head>
+
+<body>
+
+   <div class="container p-3">
+      <h1>Lista de Cifras</h1>
+
+      <!-- Caixa de pesquisa com botões -->
+      <div class="input-group mb-3">
+         <input type="text" id="searchInput" class="form-control" placeholder="Pesquisar cifras...">
+         <button id="searchButton" class="btn btn-primary">Buscar</button>
+         <button id="clearButton" class="btn btn-secondary">Limpar</button>
+      </div>
+
+      <ul id="cifraList" class="search-results">
+         <li><a href="cifras/1.html">(1) Não há mais o que dizer</a><br>
+         <li><a href="cifras/2.html">(2) Ao Único</a><br>
+         <li><a href="cifras/3.html">(3) Jesus é a Aliança</a><br>
+         <li><a href="cifras/4.html">(4) Livre para Servir</a><br>
+         <li><a href="cifras/5.html">(5) Nem um momento só</a><br>
+         <li><a href="cifras/6.html">(6) O Senhor é o meu Pastor</a><br>
+         <li><a href="cifras/7.html">(7) Trabalho</a><br>
+         <li><a href="cifras/8.html">(8) Exército de Deus</a><br>
+         <li><a href="cifras/9.html">(9) Meu amado Irmão</a><br>
+         <li><a href="cifras/10.html">(10) Buscai ao Senhor e Vivei</a><br>
+         <li><a href="cifras/11.html">(11) Reconhecimento</a><br>
+         <li><a href="cifras/12.html">(12) Tuas Promessas</a><br>
+         <li><a href="cifras/13.html">(13) Cantarei ao Senhor</a><br>
+         <li><a href="cifras/14.html">(14) Deus está aqui</a><br>
+         <li><a href="cifras/15.html">(15) Com muita alegria</a><br>
+         <li><a href="cifras/16.html">(16) Como Água Cristalina</a><br>
+         <li><a href="cifras/17.html">(17) Estou Alegre</a><br>
+         <li><a href="cifras/18.html">(18) Vou morar</a><br>
+         <li><a href="cifras/19.html">(19) Louvai ao Senhor</a><br>
+         <li><a href="cifras/20.html">(20) Essência de Deus</a><br>
+         <li><a href="cifras/21.html">(21) Somos um corpo em Cristo</a><br>
+         <li><a href="cifras/22.html">(22) Love's Blues</a><br>
+         <li><a href="cifras/23.html">(23) Vem Senhor Jesus</a><br>
+         <li><a href="cifras/24.html">(24) Consolai</a><br>
+         <li><a href="cifras/25.html">(25) Povo de Israel</a><br>
+         <li><a href="cifras/26.html">(26) Pampa</a><br>
+         <li><a href="cifras/27.html">(27) Não a nós Senhor</a><br>
+         <li><a href="cifras/28.html">(28) Jesus em tua presença</a><br>
+         <li><a href="cifras/29.html">(29) Teus altares</a><br>
+         <li><a href="cifras/30.html">(30) Xote da festa</a><br>
+         <li><a href="cifras/31.html">(31) Nosso Deus é soberano</a><br>
+         <li><a href="cifras/32.html">(32) Tributo à amizade (O Céu escureceu)</a><br>
+         <li><a href="cifras/33.html">(33) De todas as tribos</a><br>
+         <li><a href="cifras/34.html">(34) Reina o Senhor</a><br>
+         <li><a href="cifras/35.html">(35) Mãos dadas</a><br>
+         <li><a href="cifras/36.html">(36) O Teu amor</a><br>
+         <li><a href="cifras/37.html">(37) Tu és soberano</a><br>
+         <li><a href="cifras/38.html">(38) Louvado seja</a><br>
+         <li><a href="cifras/39.html">(39) A alegria</a><br>
+         <li><a href="cifras/40.html">(40) Aleluia! O Senhor está aqui.</a><br>
+         <li><a href="cifras/41.html">(41) Jovem, na tua mocidade</a><br>
+         <li><a href="cifras/42.html">(42) Quando olho Tua santidade</a><br>
+         <li><a href="cifras/43.html">(43) J.E.L.B.</a><br>
+         <li><a href="cifras/44.html">(44) Refugio e fortaleza</a><br>
+         <li><a href="cifras/45.html">(45) Juventude Luterana</a><br>
+         <li><a href="cifras/46.html">(46) Grande, muito grande</a><br>
+         <li><a href="cifras/47.html">(47) Buscai ao Senhor e vivei</a><br>
+         <li><a href="cifras/48.html">(48) Uma centelha só</a><br>
+         <li><a href="cifras/49.html">(49) Eu só confio no Senhor</a><br>
+         <li><a href="cifras/50.html">(50) Deus está nas folhas verdes</a><br>
+         <li><a href="cifras/51.html">(51) Louva, louva teu Senhor</a><br>
+         <li><a href="cifras/52.html">(52) Sou um vaso escolhido de Deus</a><br>
+         <li><a href="cifras/53.html">(53) De um sorriso só</a><br>
+         <li><a href="cifras/54.html">(54) A lei do Senhor é perfeita</a><br>
+         <li><a href="cifras/55.html">(55) Skibão</a><br>
+         <li><a href="cifras/56.html">(56) Reunidos Aqui</a><br>
+         <li><a href="cifras/57.html">(57) Bom Jesus, Tu és o meu Senhor</a><br>
+         <li><a href="cifras/58.html">(58) Eu vi do céu</a><br>
+         <li><a href="cifras/59.html">(59) Pai por teu Filho Salvador</a><br>
+         <li><a href="cifras/60.html">(60) Te confesso ó Deus</a><br>
+         <li><a href="cifras/61.html">(61) Tudo o que no mundo você tem</a><br>
+         <li><a href="cifras/62.html">(62) Soli, Soli Deo</a><br>
+         <li><a href="cifras/63.html">(63) Tudo o que eu tenho</a><br>
+         <li><a href="cifras/64.html">(64) Amarás o Senhor</a><br>
+         <li><a href="cifras/65.html">(65) Pertenço ao teu Rebanho</a><br>
+         <li><a href="cifras/66.html">(66) Jesus, Te entronizamos ...</a><br>
+         <li><a href="cifras/67.html">(67) Eis-me aqui Senhor</a><br>
+         <li><a href="cifras/68.html">(68) Hoje é tempo de louvar</a><br>
+         <li><a href="cifras/69.html">(69) Espírito Santo de Deus</a><br>
+         <li><a href="cifras/70.html">(70) Vem caminhante</a><br>
+         <li><a href="cifras/71.html">(71) Tributai ao Senhor</a><br>
+         <li><a href="cifras/72.html">(72) Caiam por terra agora</a><br>
+         <li><a href="cifras/73.html">(73) Canto de vitória</a><br>
+         <li><a href="cifras/74.html">(74) O que mais quero em meu viver</a><br>
+         <li><a href="cifras/75.html">(75) Bem-aventurado o povo</a><br>
+         <li><a href="cifras/76.html">(76) O brilho deste mundo</a><br>
+         <li><a href="cifras/77.html">(77) Vamos adorar a Deus</a><br>
+         <li><a href="cifras/78.html">(78) Estás assentado no trono</a><br>
+         <li><a href="cifras/79.html">(79) Quão bom</a><br>
+         <li><a href="cifras/80.html">(80) Meu coração</a><br>
+         <li><a href="cifras/81.html">(81) Se o meu povo</a><br>
+         <li><a href="cifras/82.html">(82) Quero cantar uma linda canção</a><br>
+         <li><a href="cifras/83.html">(83) Eu sei que foi pago</a><br>
+         <li><a href="cifras/84.html">(84) Infinitamente Mais</a><br>
+         <li><a href="cifras/85.html">(85) Se sofrimentos te causei</a><br>
+         <li><a href="cifras/86.html">(86) Eu navegarei</a><br>
+         <li><a href="cifras/87.html">(87) Se aquela cruz falasse</a><br>
+         <li><a href="cifras/88.html">(88) Vem com Josué lutar em Jericó</a><br>
+         <li><a href="cifras/89.html">(89) Demos graças ao Senhor</a><br>
+         <li><a href="cifras/90.html">(90) Pai de amor</a><br>
+         <li><a href="cifras/91.html">(91) Se as águas do mar da vida</a><br>
+         <li><a href="cifras/92.html">(92) Pai, eu te adoro</a><br>
+         <li><a href="cifras/93.html">(93) Aqui estou para cantar</a><br>
+         <li><a href="cifras/94.html">(94) Novo Mandamento vos dou</a><br>
+         <li><a href="cifras/95.html">(95) Olhando a manhã com gratidão</a><br>
+         <li><a href="cifras/96.html">(96) Agradeçam ao Deus eterno</a><br>
+         <li><a href="cifras/97.html">(97) Eis-me aqui Senhor, ...</a><br>
+         <li><a href="cifras/98.html">(98) Homem como queres que eu seja feliz</a><br>
+         <li><a href="cifras/99.html">(99) Estou ouvindo ao longe os jovens</a><br>
+         <li><a href="cifras/100.html">(100) Vocação para viver</a><br>
+         <li><a href="cifras/101.html">(101) Em todo o tempo</a><br>
+         <li><a href="cifras/102.html">(102) Eu quero ser</a><br>
+         <li><a href="cifras/103.html">(103) Andam procurando</a><br>
+         <li><a href="cifras/104.html">(104) Foi Graça irmãos</a><br>
+         <li><a href="cifras/105.html">(105) Tal é a paz</a><br>
+         <li><a href="cifras/106.html">(106) Eis que vem</a><br>
+         <li><a href="cifras/107.html">(107) Santo, Santo, Santo és Senhor</a><br>
+         <li><a href="cifras/108.html">(108) Cristo voltará logo</a><br>
+         <li><a href="cifras/109.html">(109) Foi bom te ver aqui</a><br>
+         <li><a href="cifras/110.html">(110) Eu preciso de você</a><br>
+         <li><a href="cifras/111.html">(111) Cantai ao Senhor um cântico novo (Salmo 96)</a><br>
+         <li><a href="cifras/112.html">(112) Siyahamba</a><br>
+         <li><a href="cifras/113.html">(113) Jesus é meu sol</a><br>
+         <li><a href="cifras/114.html">(114) Te amo Senhor</a><br>
+         <li><a href="cifras/115.html">(115) Cantem ao Deus Eterno</a><br>
+         <li><a href="cifras/116.html">(116) A ti Senhor</a><br>
+         <li><a href="cifras/117.html">(117) Pai Abraão</a><br>
+         <li><a href="cifras/118.html">(118) Sob a luz da lua</a><br>
+         <li><a href="cifras/119.html">(119) Quem é que mora</a><br>
+         <li><a href="cifras/120.html">(120) Meu coração transborda de amor</a><br>
+         <li><a href="cifras/121.html">(121) Todas tuas obras</a><br>
+         <li><a href="cifras/122.html">(122) Rei das nações</a><br>
+         <li><a href="cifras/123.html">(123) Senhor meu Deus</a><br>
+         <li><a href="cifras/124.html">(124) Celebrai com júbilo</a><br>
+         <li><a href="cifras/125.html">(125) Celebrai a Cristo</a><br>
+         <li><a href="cifras/126.html">(126) Hosana ao Rei</a><br>
+         <li><a href="cifras/127.html">(127) Hosana hey ! Hosana há !</a><br>
+         <li><a href="cifras/128.html">(128) Jesus disse</a><br>
+         <li><a href="cifras/129.html">(129) Seja Deus gracioso</a><br>
+         <li><a href="cifras/130.html">(130) Os que confiam no Senhor</a><br>
+         <li><a href="cifras/131.html">(131) Um dia</a><br>
+         <li><a href="cifras/132.html">(132) Nova criatura</a><br>
+         <li><a href="cifras/133.html">(133) Momento novo</a><br>
+         <li><a href="cifras/134.html">(134) Água viva</a><br>
+         <li><a href="cifras/135.html">(135) Bate tambor</a><br>
+         <li><a href="cifras/136.html">(136) Esse povo</a><br>
+         <li><a href="cifras/137.html">(137) Haja som</a><br>
+         <li><a href="cifras/138.html">(138) Madrugada</a><br>
+         <li><a href="cifras/139.html">(139) Ministrar-te-ei</a><br>
+         <li><a href="cifras/140.html">(140) Derrama Senhor</a><br>
+         <li><a href="cifras/141.html">(141) Ó Deus, faz-nos ser um</a><br>
+         <li><a href="cifras/142.html">(142) Fluirá como um rio</a><br>
+         <li><a href="cifras/143.html">(143) O sabão</a><br>
+         <li><a href="cifras/144.html">(144) Glória pra sempre</a><br>
+         <li><a href="cifras/145.html">(145) A porta</a><br>
+         <li><a href="cifras/146.html">(146) Vencendo vem Jesus</a><br>
+         <li><a href="cifras/147.html">(147) Meu barco é pequeno</a><br>
+         <li><a href="cifras/148.html">(148) Meu bom pastor é Cristo</a><br>
+         <li><a href="cifras/149.html">(149) Quem é salvo e tem certeza</a><br>
+         <li><a href="cifras/150.html">(150) Gozo</a><br>
+         <li><a href="cifras/151.html">(151) Toc, toc, toc!</a><br>
+         <li><a href="cifras/152.html">(152) Plim, plim</a><br>
+         <li><a href="cifras/153.html">(153) Céu azul</a><br>
+         <li><a href="cifras/154.html">(154) A começar em mim</a><br>
+         <li><a href="cifras/155.html">(155) Ao orarmos Senhor</a><br>
+         <li><a href="cifras/156.html">(156) Amigo verdadeiro</a><br>
+         <li><a href="cifras/157.html">(157) Aqui chegando, Senhor (A água)</a><br>
+         <li><a href="cifras/158.html">(158) Jesus Cristo mudou meu viver</a><br>
+         <li><a href="cifras/159.html">(159) Seja engrandecido</a><br>
+         <li><a href="cifras/160.html">(160) Fico feliz em vir em tua casa</a><br>
+         <li><a href="cifras/161.html">(161) Deus amou ao mundo</a><br>
+         <li><a href="cifras/162.html">(162) Estamos Reunidos</a><br>
+         <li><a href="cifras/163.html">(163) Se o Espírito de Deus</a><br>
+         <li><a href="cifras/164.html">(164) Ainda que eu fale</a><br>
+         <li><a href="cifras/165.html">(165) Este é o meu corpo</a><br>
+         <li><a href="cifras/166.html">(166) Em ti Senhor me refugio</a><br>
+         <li><a href="cifras/167.html">(167) Solte o cabo da nau</a><br>
+         <li><a href="cifras/168.html">(168) Pelas dores deste mundo</a><br>
+         <li><a href="cifras/169.html">(169) É festa, é alegria</a><br>
+         <li><a href="cifras/170.html">(170) Vive o Senhor</a><br>
+         <li><a href="cifras/171.html">(171) Leão de Judá</a><br>
+         <li><a href="cifras/172.html">(172) Ele é o Leão da Tribo de Judá</a><br>
+         <li><a href="cifras/173.html">(173) Eu canto</a><br>
+         <li><a href="cifras/174.html">(174) Te ofertamos nossos dons</a><br>
+         <li><a href="cifras/175.html">(175) Santo, Santo, Santo, Santo</a><br>
+         <li><a href="cifras/176.html">(176) Glória</a><br>
+         <li><a href="cifras/177.html">(177) Deus o Rei do mundo inteiro</a><br>
+         <li><a href="cifras/178.html">(178) Autoridade e Poder</a><br>
+         <li><a href="cifras/179.html">(179) Meu Deus e meu Rei</a><br>
+         <li><a href="cifras/180.html">(180) Sede espiritual (Salmo 63)</a><br>
+         <li><a href="cifras/181.html">(181) Ele é exaltado</a><br>
+         <li><a href="cifras/182.html">(182) Canto diferente</a><br>
+         <li><a href="cifras/183.html">(183) Conheci um grande amigo</a><br>
+         <li><a href="cifras/184.html">(184) Fala e não te cales</a><br>
+         <li><a href="cifras/185.html">(185) Ele é o Deus</a><br>
+         <li><a href="cifras/186.html">(186) Aleluia, salvação e glória</a><br>
+         <li><a href="cifras/187.html">(187) Quem pode livrar</a><br>
+         <li><a href="cifras/188.html">(188) Em nome do Senhor Jesus</a><br>
+         <li><a href="cifras/189.html">(189) Muitos que procuram</a><br>
+         <li><a href="cifras/190.html">(190) O Rei está voltando</a><br>
+         <li><a href="cifras/191.html">(191) Você tem valor</a><br>
+         <li><a href="cifras/192.html">(192) Confiar em Deus – Aiê</a><br>
+         <li><a href="cifras/193.html">(193) Em Belém há muito tempo</a><br>
+         <li><a href="cifras/194.html">(194) Posso de manhã</a><br>
+         <li><a href="cifras/195.html">(195) Cristo é a videira</a><br>
+         <li><a href="cifras/196.html">(196) Eu quero apresentar meu corpo</a><br>
+         <li><a href="cifras/197.html">(197) Somos o seu povo</a><br>
+         <li><a href="cifras/198.html">(198) Tem piedade, Senhor</a><br>
+         <li><a href="cifras/199.html">(199) Cativou</a><br>
+         <li><a href="cifras/200.html">(200) Vida</a><br>
+         <li><a href="cifras/201.html">(201) Reina em mim</a><br>
+         <li><a href="cifras/202.html">(202) Renova-me</a><br>
+         <li><a href="cifras/203.html">(203) Louve ao Senhor</a><br>
+         <li><a href="cifras/204.html">(204) Corpo e Família</a><br>
+         <li><a href="cifras/205.html">(205) Consagração</a><br>
+         <li><a href="cifras/206.html">(206) Belo</a><br>
+         <li><a href="cifras/207.html">(207) Brilha, Jesus</a><br>
+         <li><a href="cifras/208.html">(208) Eu Quero Um Rio (Tchuba, Tchuba)</a><br>
+         <li><a href="cifras/209.html">(209) Entrega o teu caminho</a><br>
+         <li><a href="cifras/210.html">(210) De graça, de festa, de alegria</a><br>
+         <li><a href="cifras/211.html">(211) Quando a glória do Senhor</a><br>
+         <li><a href="cifras/212.html">(212) Ao nosso Deus</a><br>
+         <li><a href="cifras/213.html">(213) Roupa do louvor</a><br>
+         <li><a href="cifras/214.html">(214) Diante do Rei</a><br>
+         <li><a href="cifras/215.html">(215) No céu eu não vou chorar</a><br>
+         <li><a href="cifras/216.html">(216) Parabéns para você</a><br>
+         <li><a href="cifras/217.html">(217) Nosso General</a><br>
+         <li><a href="cifras/218.html">(218) Por dentro, por fora,...</a><br>
+         <li><a href="cifras/219.html">(219) Canção do Espírito</a><br>
+         <li><a href="cifras/220.html">(220) Eu sou grato</a><br>
+         <li><a href="cifras/221.html">(221) Opção de amor</a><br>
+         <li><a href="cifras/222.html">(222) Tão certo como vive o Senhor</a><br>
+         <li><a href="cifras/223.html">(223) Undererê de Jesus</a><br>
+         <li><a href="cifras/224.html">(224) Raça eleita</a><br>
+         <li><a href="cifras/225.html">(225) Que maravilha é ser o filho de Deus (Quem é o filho de Deus)</a><br>
+         <li><a href="cifras/226.html">(226) Parabéns Campeiro</a><br>
+         <li><a href="cifras/227.html">(227) Como eu amo o teu templo</a><br>
+         <li><a href="cifras/228.html">(228) Eis a igrejinha</a><br>
+         <li><a href="cifras/229.html">(229) Os que amam Deus</a><br>
+         <li><a href="cifras/230.html">(230) Digno de glória</a><br>
+         <li><a href="cifras/231.html">(231) Jesus como solução</a><br>
+         <li><a href="cifras/232.html">(232) Quero te dar a paz</a><br>
+         <li><a href="cifras/233.html">(233) Que maravilha é ser o filho de Deus</a><br>
+         <li><a href="cifras/234.html">(234) Dono do meu coração</a><br>
+         <li><a href="cifras/235.html">(235) Você não está sozinho</a><br>
+         <li><a href="cifras/236.html">(236) Pescador de homens</a><br>
+         <li><a href="cifras/237.html">(237) Canto Alegretense Cristão</a><br>
+         <li><a href="cifras/238.html">(238) Senhor meu Deus</a><br>
+         <li><a href="cifras/239.html">(239) Como é bonito Senhor</a><br>
+         <li><a href="cifras/240.html">(240) Frutos do Reino</a><br>
+         <li><a href="cifras/241.html">(241) Nada poderá</a><br>
+         <li><a href="cifras/242.html">(242) Videira</a><br>
+         <li><a href="cifras/243.html">(243) Tal como estou, tão pecador</a><br>
+         <li><a href="cifras/244.html">(244) Nuvem de Glória</a><br>
+         <li><a href="cifras/245.html">(245) Com o Senhor tudo posso</a><br>
+         <li><a href="cifras/246.html">(246) Em minhas preces</a><br>
+         <li><a href="cifras/247.html">(247) Jerusalém</a><br>
+         <li><a href="cifras/248.html">(248) Fiel a mim</a><br>
+         <li><a href="cifras/249.html">(249) Fidelidade</a><br>
+         <li><a href="cifras/250.html">(250) Louvado seja o meu Senhor</a><br>
+         <li><a href="cifras/251.html">(251) Te agradeço</a><br>
+         <li><a href="cifras/252.html">(252) Firme nas promessas de Jesus</a><br>
+         <li><a href="cifras/253.html">(253) Barquinho</a><br>
+         <li><a href="cifras/254.html">(254) Graças dou</a><br>
+         <li><a href="cifras/255.html">(255) Te amarei, Senhor (Me chamaste para
+               caminhar)</a><br>
+         <li><a href="cifras/256.html">(256) Faz chover</a><br>
+         <li><a href="cifras/257.html">(257) Castelo Forte</a><br>
+         <li><a href="cifras/258.html">(258) Grande é o Senhor</a><br>
+         <li><a href="cifras/259.html">(259) Me refez</a><br>
+         <li><a href="cifras/260.html">(260) Em Jesus amigo temos</a><br>
+         <li><a href="cifras/261.html">(261) Oração pela família</a><br>
+   </div>
+   </div>
+   <script>
+      // Função para filtrar cifras
+      function filterList() {
+         const filter = document.getElementById('searchInput').value.toLowerCase();
+         const items = document.querySelectorAll('#cifraList li');
+
+         items.forEach(item => {
+            const text = item.textContent.toLowerCase();
+            item.style.display = text.includes(filter) ? '' : 'none';
+         });
+      }
+
+      // Evento para o botão de buscar
+      document.getElementById('searchButton').addEventListener('click', filterList);
+
+      // Evento para o campo de pesquisa (aciona a pesquisa ao digitar)
+      document.getElementById('searchInput').addEventListener('keyup', filterList);
+
+      // Evento para o botão de limpar
+      document.getElementById('clearButton').addEventListener('click', function () {
+         const searchInput = document.getElementById('searchInput');
+         searchInput.value = ''; // Limpa o campo de pesquisa
+         filterList(); // Reexibe todos os itens
+      });
+   </script>
+
+</body>
+
+</html>
+
+</html>
